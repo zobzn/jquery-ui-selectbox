@@ -1,2 +1,2 @@
-jquery-ui-listbox
-=================
+jquery-ui-selectbox
+===================

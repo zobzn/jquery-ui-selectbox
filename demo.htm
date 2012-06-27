@@ -1,0 +1,41 @@
+<!doctype html>
+<html>
+<head>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.4/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.8/jquery-ui.min.js"></script>
+	<script src="jquery-ui-selectbox.js"></script>
+	<link rel="stylesheet" type="text/css" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8/themes/smoothness/jquery-ui.css" />
+	<link rel="stylesheet" type="text/css" href="jquery-ui-selectbox.css" />
+</head>
+<body>
+
+	<select size="3" id="test-listbox-one">
+		<option>first</option>
+		<option>second</option>
+		<option>last</option>
+	</select>
+	<select size="3" id="test-listbox-mul" multiple="multiple">
+		<option>first</option>
+		<option>second</option>
+		<option>last</option>
+	</select>
+	<select size="3" id="test-selectbox-one">
+		<option>first</option>
+		<option>second</option>
+		<option>last</option>
+	</select>
+	<select size="3" id="test-selectbox-mul" multiple="multiple">
+		<option>first</option>
+		<option>second</option>
+		<option>last</option>
+	</select>
+
+	<script>
+		$('#test-listbox-one').listbox();
+		$('#test-listbox-mul').listbox();
+		$('#test-selectbox-one').selectbox();
+		$('#test-selectbox-mul').selectbox();
+	</script>
+
+</body>
+</html>
